@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
 
@@ -13,7 +16,7 @@
       <div class="container">
         <div class="header__logo">
           SINGOLO
-          <span>*</span>
+          <span class="asterisk">*</span>
         </div>
         <ul class="header__nav">
           <li class="header__item">
@@ -42,19 +45,22 @@
             </a>
           </li>
         </ul>
-        <hr class="header__br">
       </div>
+      <hr class="header__br" />
     </header>
+
     <main class="main">
-      <div class="container">
-        <div class="slider">
+      <section class="slider">
+        <div class="container">
           <span class="slider__back-icon"></span>
-          <img src="" alt="" class="slider__left-phone" />
-          <img src="" alt="" class="slider__right-phone" />
+          <div class="slider__left-phone"></div>
+          <div class="slider__right-phone"></div>
           <span class="slider__next-icon"></span>
         </div>
+      </section>
 
-        <div class="services">
+      <section class="services">
+        <div class="container">
           <h2 class="services__title">Our Services</h2>
           <p class="services__description">
             Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
@@ -64,58 +70,76 @@
           </p>
           <ul class="services__list">
             <li class="services__item">
-              <p class="services__item-title">Custom Design</p>
-              <p class="services__item-description">
-                Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam
-                laoreet, viverra lacus ut, ultrices velit.
-              </p>
+              <span class="services__icon icon-pen"></span>
+              <div class="services__content">
+                <h3 class="services__item-title">Custom Design</h3>
+                <p class="services__item-description">
+                  Curabitur vestibulum eget mauris quis laoreet. Phasellus in
+                  quam laoreet, viverra lacus ut, ultrices velit.
+                </p>
+              </div>
             </li>
             <li class="services__item">
-              <p class="services__item-title">Inovative Ideas</p>
-              <p class="services__item-description">
-                Quisque luctus, quam eget molestie commodo, lacus purus cursus
-                purus, nec rutrum tellus dolor id lorem.
-              </p>
+              <span class="services__icon icon-bulb"></span>
+              <div class="services__content">
+                <h3 class="services__item-title">Inovative Ideas</h3>
+                <p class="services__item-description">
+                  Quisque luctus, quam eget molestie commodo, lacus purus cursus
+                  purus, nec rutrum tellus dolor id lorem.
+                </p>
+              </div>
             </li>
             <li class="services__item">
-              <p class="services__item-title">
-                Love Is The Answer
-              </p>
-              <p class="services__item-description">
-                Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet
-                turpis, et consequat felis. Quisque condimentum.
-              </p>
+              <span class="services__icon icon-heart"></span>
+              <div class="services__content">
+                <h3 class="services__item-title">
+                  Love Is The Answer
+                </h3>
+                <p class="services__item-description">
+                  Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet
+                  turpis, et consequat felis. Quisque condimentum.
+                </p>
+              </div>
             </li>
             <li class="services__item">
-              <p class="services__item-title">
-                Responsive Layout
-              </p>
-              <p class="services__item-description">
-                Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas
-                blandit nunc ligula. Praesent elit leo.
-              </p>
+              <span class="services__icon icon-phone"></span>
+              <div class="services__content">
+                <h3 class="services__item-title">
+                  Responsive Layout
+                </h3>
+                <p class="services__item-description">
+                  Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas
+                  blandit nunc ligula. Praesent elit leo.
+                </p>
+              </div>
             </li>
             <li class="services__item">
-              <p class="services__item-title">
-                24 / 7 Support
-              </p>
-              <p class="services__item-description">
-                Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi.
-                Nulla a sem erat. Pellentesque egestas venenatis lorem .
-              </p>
+              <span class="services__icon icon-bubble"></span>
+              <div class="services__content">
+                <h3 class="services__item-title">
+                  24 / 7 Support
+                </h3>
+                <p class="services__item-description">
+                  Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi.
+                  Nulla a sem erat. Pellentesque egestas venenatis lorem .
+                </p>
+              </div>
             </li>
             <li class="services__item">
-              <p class="services__item-title">
-                Feel Like A Star
-              </p>
-              <p class="services__item-description">
-                Quisque hendrerit purus dapibus, ornare nibh vitae, viverra
-                nibh. Fusce vitae aliquam tellus.
-              </p>
+              <span class="services__icon icon-star"></span>
+              <div class="services__content">
+                <h3 class="services__item-title">
+                  Feel Like A Star
+                </h3>
+                <p class="services__item-description">
+                  Quisque hendrerit purus dapibus, ornare nibh vitae, viverra
+                  nibh. Fusce vitae aliquam tellus.
+                </p>
+              </div>
             </li>
           </ul>
         </div>
-      </div>
+      </section>
     </main>
     <footer class="footer"></footer>
   </body>

@@ -12,30 +12,37 @@ html{
 .header{
   background-color: #2d303a;
   height: 89px;
+  /* 
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .container{
-  width: 1020px;
-}
-
-.header .container{
-  display: flex;
-  justify-content: center;
+  max-width: 1020px;
+  /* display: flex;
   align-items: center;
+  justify-content: center; */
+  margin: 0 auto;
 }
 
 .header__logo{
-  font-weight: bold;
+  font-weight: 700;
   color: #fff;
   display: inline-block;
-  font-size: 25px;
-  margin-right: 454px;
-  line-height: 19px;
-  float: left;
+  font-size: 24px;
+  margin-left: 40px;
+  margin-top: 29px;
+  margin-right: 459px;
 }
+
+.asterisk{
+  position: absolute;
+  top: 29px;
+  margin-left: 107px;
+  color: #f06c64;
+}
+
 
 .header__nav{
   list-style: none;
@@ -50,15 +57,139 @@ html{
   display: inline;
   font-size: 12px;
   margin-right: 30px;
+  margin-right: 26px;
 }
 
 .header__link{
   color: #fff;
   text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
 }
 
 .header__br{
   height: 6px;
   background-color: #323746;
   border: 0;
+  margin-top: 31px;
+}
+
+.main{
+  margin-top: 6px;
+  
+}
+
+.slider{
+  height: 600px;
+  background-color: #f06c64;
+}
+
+.slider__back-icon{
+  background-image: url(/img/icon-back.svg);
+  width: 16px; 
+  height: 27px;
+  background-repeat: no-repeat;
+  margin-left: 42px;
+  margin-top: 281px;
+  float: left;
+}
+
+.slider__left-phone{
+  background-image: url(/img/iPhone\ Vertical.png);
+  background-repeat: no-repeat;
+  width: 240px;
+  height: 486px;
+  float:left;
+  margin-top: 53px;
+  margin-left: 54px;
+}
+
+.slider__right-phone{
+  background-image: url(/img/iPhone\ Horizontal.png);
+  width: 484px;
+  height: 240px;
+  float: left;
+  margin-left: 74px;
+  margin-top: 174px;
+}
+
+.slider__next-icon{
+  background-image: url(/img/icon-next.svg);
+  width: 16px; 
+  height: 27px;
+  background-repeat: no-repeat;
+  margin-left: 55px;
+  margin-top: 281px;
+  float: left;
+}
+
+.services{
+  background-color: #f2f2f2;
+  height: 494px;
+  color: #666d89;
+}
+
+.services__title{
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.services__title{
+  display: inline-block;
+  margin-top: 67px;
+  margin-left: 40px;
+}
+
+.services__description{
+  font-weight: 300;
+  font-size: 18px;
+  margin-left: 40px;
+}
+
+.services__list{
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 207px;
+  margin-top: 51px;
+  list-style: none;
+}
+
+.services__item{
+  width: 299px;
+}
+
+.services__content{
+  margin-left: 20px;
+}
+
+.services__icon{
+  width: 62px;
+  height: 62px;
+  float: left;
+}
+
+.icon-pen{
+  background-image: url(/img/icons/pen.svg);
+}
+
+.icon-bulb{
+  background-image: url(/img/icons/bulb.svg);
+}
+
+.icon-heart{
+  background-image: url(/img/icons/heart.svg);
+}
+
+.icon-phone{
+  background-image: url(/img/icons/phone.svg);
+}
+
+.icon-bubble{
+  background-image: url(/img/icons/bubble.svg);
+}
+
+.icon-star{
+  background-image: url(/img/icons/star.svg);
 }
