@@ -34,13 +34,14 @@ html{
   margin-left: 40px;
   margin-top: 29px;
   margin-right: 459px;
+  position: relative;
 }
 
 .asterisk{
   position: absolute;
   top: 29px;
-  margin-left: 107px;
   color: #f06c64;
+  top: 0px;
 }
 
 
@@ -67,7 +68,7 @@ html{
   font-size: 12px;
 }
 
-.header__br{
+.header__hr{
   height: 6px;
   background-color: #323746;
   border: 0;
@@ -123,6 +124,15 @@ html{
   float: left;
 }
 
+.slider__hr{
+  display: inline-block;
+  height: 6px;
+  background-color: #ea676b;
+  width: 100%;
+  border: 0;
+  margin-top: 55px;
+}
+
 .services{
   background-color: #f2f2f2;
   height: 494px;
@@ -132,35 +142,49 @@ html{
 .services__title{
   font-size: 30px;
   font-weight: 900;
-}
-
-.services__title{
   display: inline-block;
   margin-top: 67px;
   margin-left: 40px;
+  margin-top: 59px;
 }
 
 .services__description{
   font-weight: 300;
   font-size: 18px;
   margin-left: 40px;
+  margin-top: 22px;
+}
+
+.services__item-description{
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 11px;
 }
 
 .services__list{
   margin-left: 40px;
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  max-height: 207px;
-  margin-top: 51px;
+  height: 207px;
   list-style: none;
+  margin-top: 55px;
 }
 
 .services__item{
   width: 299px;
+  height: 86px;
 }
 
 .services__content{
+  margin-left: 20px;
+  margin-left: 81px;
+}
+
+.bottom-block{
+  margin-top: 39px;
+}
+
+.left-block{
   margin-left: 20px;
 }
 
@@ -168,6 +192,7 @@ html{
   width: 62px;
   height: 62px;
   float: left;
+  margin-top: 3px;
 }
 
 .icon-pen{
@@ -180,16 +205,22 @@ html{
 
 .icon-heart{
   background-image: url(/img/icons/heart.svg);
+  margin-top: 3px;
+  margin-left: 1px;
 }
 
 .icon-phone{
   background-image: url(/img/icons/phone.svg);
+  margin-top: 1px;
 }
 
 .icon-bubble{
   background-image: url(/img/icons/bubble.svg);
+  margin-top: 1px;
 }
 
 .icon-star{
   background-image: url(/img/icons/star.svg);
+  margin-top: 1px;
+  margin-left: 1px;
 }
