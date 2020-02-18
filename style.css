@@ -158,7 +158,8 @@ html{
 .services__item-description{
   font-weight: 400;
   font-size: 12px;
-  margin-top: 11px;
+  margin-top: 7px;
+  line-height: 1.9;
 }
 
 .services__list{
@@ -223,4 +224,10 @@ html{
   background-image: url(/img/icons/star.svg);
   margin-top: 1px;
   margin-left: 1px;
+}
+
+.services__hr{
+  background-color: #fff;
+  height: 6px;
+  border: 0;
 }
