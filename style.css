@@ -152,14 +152,21 @@ html{
   font-weight: 300;
   font-size: 18px;
   margin-left: 40px;
-  margin-top: 22px;
+  margin-top: 19px;
+  line-height: 30px;
+  text-align: justify;
+  width: 939px;
+  word-spacing: -1px;
 }
 
 .services__item-description{
+  width: 220px;
   font-weight: 400;
   font-size: 12px;
   margin-top: 7px;
   line-height: 1.9;
+  text-align: justify;
+  word-spacing: -3px;
 }
 
 .services__list{
@@ -168,7 +175,7 @@ html{
   flex-wrap: wrap;
   height: 207px;
   list-style: none;
-  margin-top: 55px;
+  margin-top: 42px;
 }
 
 .services__item{
@@ -176,9 +183,31 @@ html{
   height: 86px;
 }
 
+.services__item-title{
+  font-size: 18px;
+}
+
 .services__content{
   margin-left: 20px;
   margin-left: 81px;
+}
+
+.feel-star-title{
+  margin-top: -2px;
+  margin-left: 3px;
+}
+
+.support-title{
+  margin-top: -3px;
+  word-spacing: -2px;
+}
+
+.love-answer-title{
+  margin-left: 3px;
+}
+
+.responsive-layout-title{
+  margin-top: -2px;
 }
 
 .bottom-block{
