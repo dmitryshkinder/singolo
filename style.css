@@ -44,10 +44,20 @@ html{
   top: 0px;
 }
 
+.site-navigation{
+  display: inline-block;
+}
 
 .header__nav{
   list-style: none;
-  display: inline-block;
+}
+
+.header__item::after{
+  content: "·";
+  color: #fff;
+  position: absolute;
+  margin-left: 9px;
+  margin-top: 6px;
 }
 
 .header__item:last-child{
