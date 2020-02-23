@@ -108,7 +108,7 @@ html{
 }
 
 .slider__back-icon{
-  background-image: url(/img/icon-back.svg);
+  background-image: url(/assets/img/icon-back.svg);
   width: 16px; 
   height: 27px;
   background-repeat: no-repeat;
@@ -118,7 +118,7 @@ html{
 }
 
 .slider__back-icon:hover{
-  background-image: url(/img/icon-back-white.svg);
+  background-image: url(/assets/img/icon-back-white.svg);
   width: 16px; 
   height: 27px;
   background-repeat: no-repeat;
@@ -129,7 +129,7 @@ html{
 }
 
 .slider__left-phone{
-  background-image: url(/img/iPhone\ Vertical.png);
+  background-image: url(/assets/img/iPhone\ Vertical.png);
   background-repeat: no-repeat;
   width: 240px;
   height: 486px;
@@ -139,7 +139,7 @@ html{
 }
 
 .slider__right-phone{
-  background-image: url(/img/iPhone\ Horizontal.png);
+  background-image: url(/assets/img/iPhone\ Horizontal.png);
   width: 484px;
   height: 240px;
   float: left;
@@ -148,7 +148,7 @@ html{
 }
 
 .slider__next-icon{
-  background-image: url(/img/icon-next.svg);
+  background-image: url(/assets/img/icon-next.svg);
   width: 16px; 
   height: 27px;
   background-repeat: no-repeat;
@@ -158,7 +158,7 @@ html{
 }
 
 .slider__next-icon:hover{
-  background-image: url(/img/icon-next-white.svg);
+  background-image: url(/assets/img/icon-next-white.svg);
   width: 16px; 
   height: 27px;
   background-repeat: no-repeat;
@@ -274,31 +274,31 @@ html{
 }
 
 .icon-pen{
-  background-image: url(/img/icons/pen.svg);
+  background-image: url(/assets/img/icons/pen.svg);
 }
 
 .icon-bulb{
-  background-image: url(/img/icons/bulb.svg);
+  background-image: url(/assets/img/icons/bulb.svg);
 }
 
 .icon-heart{
-  background-image: url(/img/icons/heart.svg);
+  background-image: url(/assets/img/icons/heart.svg);
   margin-top: 3px;
   margin-left: 1px;
 }
 
 .icon-phone{
-  background-image: url(/img/icons/phone.svg);
+  background-image: url(/assets/img/icons/phone.svg);
   margin-top: 1px;
 }
 
 .icon-bubble{
-  background-image: url(/img/icons/bubble.svg);
+  background-image: url(/assets/img/icons/bubble.svg);
   margin-top: 1px;
 }
 
 .icon-star{
-  background-image: url(/img/icons/star.svg);
+  background-image: url(/assets/img/icons/star.svg);
   margin-top: 1px;
   margin-left: 1px;
 }
