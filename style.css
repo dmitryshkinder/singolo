@@ -11,41 +11,40 @@ html{
 
 .header{
   background-color: #2d303a;
-  height: 89px;
-  /* 
-  display: flex;
-  justify-content: center;
-  align-items: center; */
+  height: 95px;
 }
 
 .container{
   max-width: 1020px;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   margin: 0 auto;
 }
 
 .header__logo{
+  float: left;
+  margin-left: 40px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.title-page{
   font-weight: 700;
   color: #fff;
-  display: inline-block;
   font-size: 24px;
-  margin-left: 40px;
-  margin-top: 29px;
-  margin-right: 459px;
-  position: relative;
 }
 
 .asterisk{
   position: absolute;
   top: 29px;
   color: #f06c64;
-  top: 0px;
+  top: -1px;
+  left: 107px;
+  font-size: 25px;
 }
 
 .site-navigation{
-  display: inline-block;
+  float: left;
+  margin-left: 462px;
+  margin-top: 39px;
 }
 
 .header__nav{
@@ -83,18 +82,20 @@ html{
 
 .header__link-active{
   color: #f06c64;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .header__hr{
   height: 6px;
   background-color: #323746;
   border: 0;
+  display: inline-block;
   margin-top: 31px;
+  width: 100%;
 }
 
-.main{
-  margin-top: 6px;
-  
+.main{  
 }
 
 .slider{
