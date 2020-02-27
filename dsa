@@ -1,125 +1,0 @@
-[33mcommit fe7735c30287a5b1ba8cff5c708000064d1ebb8d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
-Author: Dmitry Shkinderd <44124141+dmitryshkinder@users.noreply.github.com>
-Date:   Thu Feb 27 14:39:54 2020 +0300
-
-    feat: added html markup
-
-[1mdiff --git a/assets/singolo2.css b/assets/singolo2.css[m
-[1mnew file mode 100644[m
-[1mindex 0000000..e69de29[m
-[1mdiff --git a/assets/singolo2.html b/assets/singolo2.html[m
-[1mnew file mode 100644[m
-[1mindex 0000000..1a95eb4[m
-[1m--- /dev/null[m
-[1m+++ b/assets/singolo2.html[m
-[36m@@ -0,0 +1,110 @@[m
-[32m+[m[32m<!DOCTYPE html>[m[41m[m
-[32m+[m[32m<html lang="ru">[m[41m[m
-[32m+[m[32m  <head>[m[41m[m
-[32m+[m[32m    <meta charset="UTF-8" />[m[41m[m
-[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0" />[m[41m[m
-[32m+[m[32m    <title>Singolo 2</title>[m[41m[m
-[32m+[m[32m  </head>[m[41m[m
-[32m+[m[32m  <body>[m[41m[m
-[32m+[m[32m    <header class="header"></header>[m[41m[m
-[32m+[m[41m[m
-[32m+[m[32m    <body class="body">[m[41m[m
-[32m+[m[32m      <section class="portfolio">[m[41m[m
-[32m+[m[32m        <div class="wrapper">[m[41m[m
-[32m+[m[32m          <h2 class="portfolio__title title">Portfolio</h2>[m[41m[m
-[32m+[m[32m          <p class="portfolio__description description">[m[41m[m
-[32m+[m[32m            Duis mollis, est non commodo luctus, nisi erat porttitor ligula,[m[41m[m
-[32m+[m[32m            eget lacinia odio sem nec elit.[m[41m[m
-[32m+[m[32m          </p>[m[41m[m
-[32m+[m[32m          <ul class="tags">[m[41m[m
-[32m+[m[32m            <li class="tags__item">[m[41m[m
-[32m+[m[32m              <a href="" class="tags__link">All</a>[m[41m[m
-[32m+[m[32m            </li>[m[41m[m
-[32m+[m[32m            <li class="tags__item">[m[41m[m
-[32m+[m[32m              <a href="" class="tags__link">Web Design</a>[m[41m[m
-[32m+[m[32m            </li>[m[41m[m
-[32m+[m[32m            <li class="tags__item">[m[41m[m
-[32m+[m[32m              <a href="" class="tags__link">Graphic Design</a>[m[41m[m
-[32m+[m[32m            </li>[m[41m[m
-[32m+[m[32m            <li class="tags__item">[m[41m[m
-[32m+[m[32m              <a href="" class="tags__link">Artwork</a>[m[41m[m
-[32m+[m[32m            </li>[m[41m[m
-[32m+[m[32m          </ul>[m[41m[m
-[32m+[m[41m[m
-[32m+[m[32m          <div class="cases">[m[41m[m
-[32m+[m[32m            <img src="" alt="" class="cases__img" />[m[41m[m
-[32m+[m[32m            <img src="" alt="" class="cases__img" />[m[41m[m
-[32m+[m[32m            <img src="" alt="" class="cases__img" />[m[41m[m
-[32m+[m[32m            <img src="" alt="" class="cases__img" />[m[41m[m
-[32m+[m[32m            <img src="" alt="" class="cases__img" />[m[41m[m
-[32m+[m[32m            <img src="" alt="" class="cases__img" />[m[41m[m
-[32m+[m[32m            <img src="" alt="" class="cases__img" />[m[41m[m
-[32m+[m[32m            <img src="" alt="" class="cases__img" />[m[41m[m
-[32m+[m[32m            <img src="" alt="" class="cases__img" />[m[41m[m
-[32m+[m[32m            <img src="" alt="" class="cases__img" />[m[41m[m
-[32m+[m[32m            <img src="" alt="" class="cases__img" />[m[41m[m
-[32m+[m[32m            <img src="" alt="" class="cases__img" />[m[41m[m
-[32m+[m[32m          </div>[m[41m[m
-[32m+[m[32m        </div>[m[41m[m
-[32m+[m[32m      </section>[m[41m[m
-[32m+[m[32m      <section class="about-us">[m[41m[m
-[32m+[m[32m        <div class="wrapper">[m[41m[m
-[32m+[m[32m          <h2 class="about-us__title title">About Us</h2>[m[41m[m
-[32m+[m[32m          <p class="about-us__description description">[m[41m[m
-[32m+[m[32m            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.[m[41m[m
-[32m+[m[32m            Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget[m[41m[m
-[32m+[m[32m            lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,[m[41m[m
-[32m+[m[32m            tortor mauris condimentum nibh.[m[41m[m
-[32m+[m[32m          </p>[m[41m[m
-[32m+[m[41m[m
-[32m+[m[32m          <div class="employers">[m[41m[m
-[32m+[m[32m            <div class="employee">[m[41m[m
-[32m+[m[32m              <div class="employee__photo"></div>[m[41m[m
-[32m+[m[32m              <div class="employee__name">Adam Jensen</div>[m[41m[m
-[32m+[m[32m              <div class="employee__description">[m[41m[m
-[32m+[m[32m                Quisque luctus, quam eget molestie commodo, lacus purus cursus[m[41m[m
-[32m+[m[32m                purus, nec rutrum tellus dolor id lorem.[m[41m[m
-[32m+[m[32m              </div>[m[41m[m
-[32m+[m[32m              <ul class="employee__social">[m[41m[m
-[32m+[m[32m                <li class="employee__social-item"></li>[m[41m[m
-[32m+[m[32m                <li class="employee__social-item"></li>[m[41m[m
-[32m+[m[32m                <li class="employee__social-item"></li>[m[41m[m
-[32m+[m[32m                <li class="employee__social-item"></li>[m[41m[m
-[32m+[m[32m              </ul>[m[41m[m
-[32m+[m[32m            </div>[m[41m[m
-[32m+[m[32m            <div class="employee">[m[41m[m
-[32m+[m[32m              <div class="employee__photo"></div>[m[41m[m
-[32m+[m[32m              <div class="employee__name">Desmond Miles</div>[m[41m[m
-[32m+[m[32m              <div class="employee__description">[m[41m[m
-[32m+[m[32m                Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam[m[41m[m
-[32m+[m[32m                laoreet, viverra lacus ut, ultrices velit.[m[41m[m
-[32m+[m[32m              </div>[m[41m[m
-[32m+[m[32m              <ul class="employee__social">[m[41m[m
-[32m+[m[32m                <li class="employee__social-item"></li>[m[41m[m
-[32m+[m[32m                <li class="employee__social-item"></li>[m[41m[m
-[32m+[m[32m                <li class="employee__social-item"></li>[m[41m[m
-[32m+[m[32m                <li class="employee__social-item"></li>[m[41m[m
-[32m+[m[32m              </ul>[m[41m[m
-[32m+[m[32m            </div>[m[41m[m
-[32m+[m[32m            <div class="employee">[m[41m[m
-[32m+[m[32m              <div class="employee__photo"></div>[m[41m[m
-[32m+[m[32m              <div class="employee__name">Scolara Visari</div>[m[41m[m
-[32m+[m[32m              <div class="employee__description">[m[41m[m
-[32m+[m[32m                Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet[m[41m[m
-[32m+[m[32m                turpis, et consequat felis. Quisque condimentum.[m[41m[m
-[32m+[m[32m              </div>[m[41m[m
-[32m+[m[32m              <ul class="employee__social">[m[41m[m
-[32m+[m[32m                <li class="employee__social-item"></li>[m[41m[m
-[32m+[m[32m                <li class="employee__social-item"></li>[m[41m[m
-[32m+[m[32m                <li class="employee__social-item"></li>[m[41m[m
-[32m+[m[32m                <li class="employee__social-item"></li>[m[41m[m
-[32m+[m[32m              </ul>[m[41m[m
-[32m+[m[32m            </div>[m[41m[m
-[32m+[m[32m          </div>[m[41m[m
-[32m+[m[32m        </div>[m[41m[m
-[32m+[m[32m      </section>[m[41m[m
-[32m+[m[32m    </body>[m[41m[m
-[32m+[m[41m[m
-[32m+[m[32m    <footer class="footer"></footer>[m[41m[m
-[32m+[m[32m  </body>[m[41m[m
-[32m+[m[32m</html>[m[41m[m
