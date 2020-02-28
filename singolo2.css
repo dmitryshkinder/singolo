@@ -6,11 +6,17 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+ *{
+   margin: 0;
+   padding: 0;
+ }
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   font-family: 'Lato', 'Vernada', sans-serif;
   font-size: 18px;
+  color: #666d89;
 }
 
 /* Sections
@@ -354,5 +360,164 @@ template {
      ========================================================================== */
 
 .portfolio{
-  
+  background-color: #2d303a;
+  height: 870px;
+}
+
+.wrapper{
+  width: 940px;
+  margin: 0 auto;
+}
+
+.title{
+  font-weight: 900;
+  font-size: 30px;
+  padding-top: 60px;
+}
+
+.portfolio__title{
+  margin-bottom: 25px;
+}
+
+.description{
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.portfolio__description{
+  margin-bottom: 15px;
+}
+
+.tags{
+  display: flex;
+  margin-bottom: 22px;
+}
+
+.tags__item{
+  list-style: none;
+  margin-right: 10px;
+}
+
+.tags__item:last-child{
+  margin-right: 0;
+}
+
+.tags__link{
+  font-size: 12px;
+  font-weight: 400;
+  color: #666d89;
+  border: 1px solid #666d89;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 3px 5px 2px 6px;
+}
+
+.tags__link_active{
+  color: #dedede;
+  border: 1px solid #dedede;
+  padding: 3px 7px 2px 8px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.cases-list__item{
+  list-style: none;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 17px;
+}
+
+.cases-list__item-four{
+  margin-right: 0;
+}
+
+.about-us{
+  background-color: #f2f2f2;
+  height: 734px;
+}
+
+.about-us__title{
+  margin-bottom: 20px;
+}
+
+.about-us__description{
+  width: 939px;
+  line-height: 29px;
+  letter-spacing: 0px;
+  word-spacing: -1px;
+  margin-bottom: 46px;
+}
+
+.employers{
+  display: flex;
+}
+
+.employee{
+  margin-right: 19px;
+}
+
+.employee__photo{
+  margin-bottom: 13px;
+}
+
+.employee__name{
+  font-weight: 900;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.employee__second-name{
+  word-spacing: -3px;
+}
+
+.employee__description{
+  font-weight: 300;
+  font-size: 12px;
+  width: 301px;
+  text-align: justify;
+  margin-bottom: 25px;
+  word-spacing: -1px;
+  line-height: 20px;
+}
+
+.social{
+  list-style: none;
+  display: flex;
+}
+
+.social__item{
+  margin-right: 8px;
+}
+
+.facebook{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url(./assets/singolo2/icons/Facebook.png);
+}
+
+.google{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url(./assets/singolo2/icons/Google.png);
+}
+
+.twitter{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url(./assets/singolo2/icons/Twitter.png);
+}
+
+.linkendin{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url(./assets/singolo2/icons/LinkedIn.png);
+}
+
+
+.social__link{
+
 }
