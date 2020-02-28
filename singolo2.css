@@ -412,6 +412,13 @@ template {
   padding: 3px 5px 2px 6px;
 }
 
+.tags__link:hover{
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 0.3s;
+}
+
 .tags__link_active{
   color: #dedede;
   border: 1px solid #dedede;
@@ -429,6 +436,16 @@ template {
 
 .cases-list__item-four{
   margin-right: 0;
+}
+
+.portfolio__line{
+  background-color: #323746;
+  height: 6px;
+  border: 0;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  bottom: -36px;
 }
 
 .about-us{
@@ -489,6 +506,26 @@ template {
   margin-right: 8px;
 }
 
+.social__link:hover .facebook{
+  background-image: url(./assets/singolo2/icons/Facebook-hover.png);
+  transition: 0.3s;
+}
+
+.social__link:hover .twitter{
+  background-image: url(./assets/singolo2/icons/Twitter-hover.png);
+  transition: 0.3s;
+}
+
+.social__link:hover .google{
+  background-image: url(./assets/singolo2/icons/Google-hover.png);
+  transition: 0.3s;
+}
+
+.social__link:hover .linkendin{
+  background-image: url(./assets/singolo2/icons/LinkedIn-hover.png);
+  transition: 0.3s;
+}
+
 .facebook{
   display: inline-block;
   width: 32px;
@@ -520,4 +557,14 @@ template {
 
 .social__link{
 
+}
+
+.about-us__line{
+  background-color: #ffffff;
+  height: 6px;
+  border: 0;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  bottom: -53px;
 }
