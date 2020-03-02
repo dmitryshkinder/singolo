@@ -11,69 +11,76 @@
 
 <body>
     <section class="contacts">
-        <h2 class="contacts__title title">Get a Quote</h2>
-        <p class="contacts_description description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimen</p>
-
-        <form action="" class="contact-form">
-            <input type="text" class="contact-form__name">
-            <input type="text" class="contact-form__email">
-            <input type="text" class="contact-form__subject">
-            <input type="textarea" class="contact-form__message">
-        </form>
-
-        <div class="contact-information">
-            <h3 class="contact-information__title">Contact Information</h3>
-            <p class="contact-information__description">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra
-                nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus
-                faucibus. Morbi at aliquet turpis, et consequat felis.
+        <div class="wrapper">
+            <h2 class="contacts__title title">Get a Quote</h2>
+            <p class="contacts_description description">Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
+                elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
             </p>
 
-            <div class="contact-information__contacts-info">
+            <form action="" class="contact-form">
+                <input type="text" class="contact-form__name" placeholder="Name (Required)">
+                <input type="text" class="contact-form__email" placeholder="Email (Required)">
+                <input type="text" class="contact-form__subject" placeholder="Subject">
+                <input type="textarea" class="contact-form__message" placeholder="Describe your project in detail...">
+            </form>
 
-                <div class="contact-information__adress">
-                    <span class="contact-information__adress-icon"></span>
-                    <p>Elm St. 14/05 Lost City </p>
+            <div class="contact-information">
+                <h3 class="contact-information__title">Contact Information</h3>
+                <p class="contact-information__description">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra
+                    nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus
+                    faucibus. Morbi at aliquet turpis, et consequat felis.
+                </p>
+
+                <div class="contact-information__contacts-info">
+
+                    <div class="contact-information__adress">
+                        <span class="contact-information__adress-icon"></span>
+                        <p>Elm St. 14/05 Lost City </p>
+                    </div>
+
+                    <div class="contact-information__phone">
+                        <span class="contact-information__phone-icon"></span>
+                        <p>03528 331 86 35</p>
+                    </div>
+
+                    <div class="contact-information__email">
+                        <span class="contact-information__email-icon"></span>
+                        <p>info@singolo.com</p>
+                    </div>
                 </div>
 
-                <div class="contact-information__phone">
-                    <span class="contact-information__phone-icon"></span>
-                    <p>03528 331 86 35</p>
-                </div>
-
-                <div class="contact-information__email">
-                    <span class="contact-information__email-icon"></span>
-                    <p>info@singolo.com</p>
-                </div>
             </div>
-
         </div>
     </section>
 
     <footer class="footer">
-        <p class="footer__copy"></p>
+        <div class="wrapper footer__wrapper">
+            <p class="footer__copy">© Copyright 2013</p>
 
-        <ul class="social footer__social">
-            <li class="social__item">
-                <a href="google.com" class="social__link">
-                    <span class="facebook footer__facebook"></span>
-                </a>
-            </li>
-            <li class="social__item">
-                <a href="google.com" class="social__link">
-                    <span class="google footer__google"></span>
-                </a>
-            </li>
-            <li class="social__item">
-                <a href="google.com" class="social__link">
-                    <span class="twitter footer__twitter"></span>
-                </a>
-            </li>
-            <li class="social__item">
-                <a href="google.com" class="social__link">
-                    <span class="linkendin footer__linkendin"></span>
-                </a>
-            </li>
-        </ul>
+            <ul class="social footer__social">
+                <li class="social__item">
+                    <a href="google.com" class="social__link">
+                        <span class="facebook footer__facebook social__icon"></span>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="google.com" class="social__link">
+                        <span class="google footer__google social__icon"></span>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="google.com" class="social__link">
+                        <span class="twitter footer__twitter social__icon"></span>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="google.com" class="social__link">
+                        <span class="linkendin footer__linkendin social__icon"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </footer>
 </body>
 

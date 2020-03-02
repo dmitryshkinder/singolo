@@ -8,10 +8,20 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+ *{
+     margin: 0;
+     padding: 0;
+ }
+
  html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
+    font-family: 'Lato', 'Vernada', sans-serif;
+    font-size: 18px;
+    color: #f0d8d9;
   }
+
+  
   
   /* Sections
      ========================================================================== */
@@ -346,4 +356,99 @@
   
   [hidden] {
     display: none;
+  }
+
+/* styles
+     ========================================================================== */
+
+
+.contacts{
+    height: 654px;
+    background-color: #f06c64;
+}
+
+.wrapper{
+    width: 940px;
+    margin: 0 auto;
+}
+
+  .title{
+    font-weight: 900;
+    font-size: 30px;
+  }
+
+  .contacts__title{
+
+  }
+
+  .description{
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  .contacts_description{
+
+  }
+
+  .contact-information__title{
+    font-weight: 900;
+    font-size: 18px;
+  }
+
+  .contact-information__description{
+      font-size: 12px;
+      font-weight: 400;
+  }
+
+  .contact-information__contacts-info p{
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .footer{
+      height: 76px;
+      background-color: #2d303a;
+  }
+
+  .footer__wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .footer__copy{
+      color: #666d89;
+      font-size: 12px;
+      font-weight: 400;
+  }
+
+  .social{
+    list-style: none;
+    display: flex;
+  }
+
+  .social__item{
+    margin-right: 8px;
+  }
+
+  .social__icon{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+  }
+
+  .footer__facebook{
+      background-image: url(./assets/singolo3/footer-icons/facebook.png);
+  }
+
+  .footer__google{
+    background-image: url(./assets/singolo3/footer-icons/google.png);
+  }
+
+  .footer__twitter{
+    background-image: url(./assets/singolo3/footer-icons/twitter.png);
+  }
+
+  .footer__linkendin{
+    background-image: url(./assets/singolo3/footer-icons/linkedin.png);
   }
