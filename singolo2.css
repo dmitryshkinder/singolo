@@ -364,6 +364,9 @@ template {
   height: 870px;
 }
 
+.header__portfolio{
+}
+
 .wrapper{
   width: 940px;
   margin: 0 auto;
@@ -372,11 +375,11 @@ template {
 .title{
   font-weight: 900;
   font-size: 30px;
-  padding-top: 60px;
 }
 
 .portfolio__title{
   margin-bottom: 25px;
+  padding-top: 60px;
 }
 
 .description{
@@ -407,7 +410,7 @@ template {
   font-weight: 400;
   color: #666d89;
   border: 1px solid #666d89;
-  border-radius: 4px;
+  border-radius: 5px;
   text-decoration: none;
   padding: 3px 5px 2px 6px;
 }
@@ -423,7 +426,7 @@ template {
   color: #dedede;
   border: 1px solid #dedede;
   padding: 3px 7px 2px 8px;
-  border-radius: 4px;
+  border-radius: 5px;
   text-align: center;
 }
 
@@ -436,6 +439,10 @@ template {
 
 .cases-list__item-four{
   margin-right: 0;
+}
+
+.cases-list__item:nth-child(1n+13){
+  display: none;
 }
 
 .portfolio__line{
@@ -455,6 +462,7 @@ template {
 
 .about-us__title{
   margin-bottom: 20px;
+  padding-top: 60px;
 }
 
 .about-us__description{
@@ -463,6 +471,7 @@ template {
   letter-spacing: 0px;
   word-spacing: -1px;
   margin-bottom: 46px;
+  text-align: justify;
 }
 
 .employers{
@@ -481,6 +490,9 @@ template {
   font-weight: 900;
   font-size: 18px;
   margin-bottom: 10px;
+  max-width: 300px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .employee__second-name{
@@ -495,6 +507,8 @@ template {
   margin-bottom: 25px;
   word-spacing: -1px;
   line-height: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .social{
