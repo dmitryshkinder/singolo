@@ -378,7 +378,8 @@
   }
 
   .contacts__title{
-
+    padding-top: 60px;
+    margin-bottom: 20px;
   }
 
   .description{
@@ -387,22 +388,114 @@
   }
 
   .contacts_description{
+    width: 940px;
+    line-height: 29px;
+    letter-spacing: 0px;
+    word-spacing: -1px;
+    margin-bottom: 45px;
+    text-align: justify;
+  }  
 
+  .input-block{
+    display: flex;
+  }
+
+  .contact-form{
+    margin-right: 20px;
+  }
+
+  .contact-form__input{
+    background-color: #d6564f;
+    border: 0;
+    margin-bottom: 16px;
+    border-radius: 5px;
+  }
+
+  .contact-form__input:last-child{
+    margin-bottom: 0;
+  }
+
+  .contact-form__input::-moz-placeholder { 
+    color: #f48c8f;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 15px;
+  }
+
+  .contact-form__input::-webkit-input-placeholder{
+    color: #f48c8f; 
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 15px;
+  }
+  
+
+  .contact-form__input{
+    width: 620px;
+    height: 38px;
+  }
+
+  .contact-form__message{
+    height: 202px;
   }
 
   .contact-information__title{
     font-weight: 900;
     font-size: 18px;
+    width: 300px;
+    margin-bottom: 9px;
   }
 
   .contact-information__description{
       font-size: 12px;
       font-weight: 400;
+      margin-bottom: 22px;
+      width: 300px;
+      text-align: justify;
+      word-spacing: -1px;
+      line-height: 21px;
+  }
+
+  .contact-information__item{
+    margin-bottom: 1px;
+  }
+
+  .contact-information__icon{
+    display: inline-block;
+  }
+
+  .contact-information__adress-icon{
+    background-image: url(./assets/singolo3/form-icons/location.svg);
+    height: 11px;
+    width: 7px;
+    margin-right: 9px;
+    margin-left: 3px;
+  }
+
+  .contact-information__phone-icon{
+    background-image: url(./assets/singolo3/form-icons/phone.svg);
+    height: 11px;
+    width: 11px;
+    margin-right: 8px;
+  }
+
+  .contact-information__email-icon{
+    background-image: url(./assets/singolo3/form-icons/mail.svg);
+    height: 8px;
+    width: 13px;
+    margin-right: 6px;
+  }
+
+  .contact-information__item:last-child{
+    margin-bottom: 0;
   }
 
   .contact-information__contacts-info p{
     font-size: 12px;
     font-weight: 400;
+    display: inline-block;
+    text-align: justify;
+    word-spacing: -1px;
   }
 
   .footer{
@@ -414,12 +507,14 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      padding: 20px;
   }
 
   .footer__copy{
-      color: #666d89;
-      font-size: 12px;
-      font-weight: 400;
+    color: #666d89;
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 682px;
   }
 
   .social{
