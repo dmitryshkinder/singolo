@@ -19,12 +19,16 @@
             </p>
 
             <div class="input-block">
-                <form action="" class="contact-form">
-                    <input type="text" class="contact-form__name contact-form__input" placeholder="Name (Required)">
-                    <input type="text" class="contact-form__email contact-form__input" placeholder="Email (Required)">
+                <form action="" class="contact-form" method="POST">
+                    <input type="text" class="contact-form__name contact-form__input" placeholder="Name (Required)"
+                        required>
+                    <input type="email" class="contact-form__email contact-form__input" placeholder="Email (Required)"
+                        required>
                     <input type="text" class="contact-form__subject contact-form__input" placeholder="Subject">
-                    <input type="textarea" class="contact-form__message contact-form__input"
+                    <textarea class="contact-form__message contact-form__input" cols="30" rows="10" name="message"
                         placeholder="Describe your project in detail...">
+                    </textarea>
+                    <input type="submit" class="contact-form__submit contact-form__input" value="Submit">
                 </form>
 
                 <div class="contact-information">
@@ -46,18 +50,19 @@
 
                         <div class="contact-information__phone contact-information__item">
                             <span class="contact-information__phone-icon contact-information__icon"></span>
-                            <p>03528 331 86 35</p>
+                            <p><a href="tel:+035283318635">03528 331 86 35 </a></p>
                         </div>
 
                         <div class="contact-information__email contact-information__item">
                             <span class="contact-information__email-icon contact-information__icon"></span>
-                            <p>info@singolo.com</p>
+                            <p><a href="mail:info@singolo.com">info@singolo.com</a></p>
                         </div>
                     </div>
                 </div>
 
             </div>
         </div>
+        <hr class="contacts__line">
     </section>
 
     <footer class="footer">

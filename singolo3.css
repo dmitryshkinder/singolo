@@ -380,6 +380,7 @@
   .contacts__title{
     padding-top: 60px;
     margin-bottom: 20px;
+    word-spacing: -1px;
   }
 
   .description{
@@ -419,24 +420,50 @@
     color: #f48c8f;
     font-weight: 400;
     font-size: 12px;
-    padding-left: 15px;
   }
 
   .contact-form__input::-webkit-input-placeholder{
     color: #f48c8f; 
     font-weight: 400;
     font-size: 12px;
-    padding-left: 15px;
   }
-  
+
+  .contact-form__input::placeholder{
+    color: #f48c8f; 
+    font-weight: 400;
+    font-size: 12px;
+  }
 
   .contact-form__input{
-    width: 620px;
+    width: 605px;
     height: 38px;
+    color: #f48c8f;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .contact-form input,
+  .contact-form textarea{
+    padding-left: 15px;
+    vertical-align: center;
+  }
+
+  .contact-form input:last-child{
+    padding: 0;
+    width: 310px;
+    margin-left: 155px;
+  }
+
+  .contact-form textarea
+
+  .contact-form__submit{
+    width: 310px;
+    margin-left: 155px;
   }
 
   .contact-form__message{
-    height: 202px;
+    height: 191px;
+    padding-top: 11px;
   }
 
   .contact-information__title{
@@ -479,6 +506,11 @@
     margin-right: 8px;
   }
 
+  .contact-information__item a{
+    color: #F0D8D9;
+    text-decoration: none;
+  }
+
   .contact-information__email-icon{
     background-image: url(./assets/singolo3/form-icons/mail.svg);
     height: 8px;
@@ -498,6 +530,16 @@
     word-spacing: -1px;
   }
 
+  .contacts__line{
+    background-color: #ea676b;
+    height: 6px;
+    border: 0;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    bottom: 1px;
+  }
+
   .footer{
       height: 76px;
       background-color: #2d303a;
@@ -505,16 +547,16 @@
 
   .footer__wrapper{
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
-      padding: 20px;
+      padding-top: 20px;
   }
 
   .footer__copy{
     color: #666d89;
     font-size: 12px;
     font-weight: 400;
-    margin-right: 682px;
+    padding-bottom: 2px;
   }
 
   .social{
@@ -524,6 +566,11 @@
 
   .social__item{
     margin-right: 8px;
+    padding-top: 2px;
+  }
+
+  .social__item:last-child{
+    margin-right: 0;
   }
 
   .social__icon{
@@ -547,3 +594,24 @@
   .footer__linkendin{
     background-image: url(./assets/singolo3/footer-icons/linkedin.png);
   }
+
+  .social__link:hover .facebook{
+    background-image: url(./assets/singolo3/footer-icons/Facebook-hover.png);
+    transition: 0.3s;
+  }
+  
+  .social__link:hover .twitter{
+    background-image: url(./assets/singolo3/footer-icons/Twitter-hover.png);
+    transition: 0.3s;
+  }
+  
+  .social__link:hover .google{
+    background-image: url(./assets/singolo3/footer-icons/Google-hover.png);
+    transition: 0.3s;
+  }
+  
+  .social__link:hover .linkendin{
+    background-image: url(./assets/singolo3/footer-icons/LinkedIn-hover.png);
+    transition: 0.3s;
+  }
+
