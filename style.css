@@ -474,14 +474,14 @@ html {
       }
       
       .slider__back-icon{
-        background-image: url(/assets/img/slider/icon-back.svg);
+        background-image: url(./assets/img/slider/icon-back.svg);
         width: 16px; 
         height: 27px;
         background-repeat: no-repeat;
       }
       
       .slider__back-icon:hover{
-        background-image: url(/assets/img/slider/icon-back-white.svg);
+        background-image: url(./assets/img/slider/icon-back-white.svg);
         width: 16px; 
         height: 27px;
         background-repeat: no-repeat;
@@ -489,7 +489,7 @@ html {
       }
       
       .slider__left-phone{
-        background-image: url(/assets/img/slider/iPhone\ Vertical.png);
+        background-image: url(./assets/img/slider/iPhone\ Vertical.png);
         background-repeat: no-repeat;
         width: 240px;
         height: 486px;
@@ -497,7 +497,7 @@ html {
       }
       
       .slider__right-phone{
-        background-image: url(/assets/img/slider/iPhone\ Horizontal.png);
+        background-image: url(./assets/img/slider/iPhone\ Horizontal.png);
         background-repeat: no-repeat;
         display: inline-block;
         width: 484px;
@@ -511,7 +511,7 @@ html {
       }
       
       .slider__next-icon{
-        background-image: url(/assets/img/slider/icon-next.svg);
+        background-image: url(./assets/img/slider/icon-next.svg);
         width: 16px; 
         height: 27px;
         background-repeat: no-repeat;
@@ -520,7 +520,7 @@ html {
       }
       
       .slider__next-icon:hover{
-        background-image: url(/assets/img/slider/icon-next-white.svg);
+        background-image: url(./assets/img/slider/icon-next-white.svg);
         width: 16px; 
         height: 27px;
         background-repeat: no-repeat;
@@ -639,31 +639,31 @@ html {
       }
       
       .icon-pen{
-        background-image: url(/assets/img/services/pen.svg);
+        background-image: url(./assets/img/services/pen.svg);
       }
       
       .icon-bulb{
-        background-image: url(/assets/img/services/bulb.svg);
+        background-image: url(./assets/img/services/bulb.svg);
       }
       
       .icon-heart{
-        background-image: url(/assets/img/services/heart.svg);
+        background-image: url(./assets/img/services/heart.svg);
         margin-top: 2px;
         margin-left: 1px;
       }
       
       .icon-phone{
-        background-image: url(/assets/img/services/phone.svg);
+        background-image: url(./assets/img/services/phone.svg);
         margin-top: 0px;
       }
       
       .icon-bubble{
-        background-image: url(/assets/img/services/bubble.svg);
+        background-image: url(./assets/img/services/bubble.svg);
         margin-top: 0px;
       }
       
       .icon-star{
-        background-image: url(/assets/img/services/star.svg);
+        background-image: url(./assets/img/services/star.svg);
         margin-top: 0px;
         margin-left: 1px;
       }
@@ -1034,7 +1034,7 @@ html {
       }
     
       .contact-information__adress-icon{
-        background-image: url(/assets/img/form/location.svg);
+        background-image: url(./assets/img/form/location.svg);
         height: 11px;
         width: 7px;
         margin-right: 9px;
@@ -1042,7 +1042,7 @@ html {
       }
     
       .contact-information__phone-icon{
-        background-image: url(/assets/img/form/phone.svg);
+        background-image: url(./assets/img/form/phone.svg);
         height: 11px;
         width: 11px;
         margin-right: 8px;
@@ -1054,7 +1054,7 @@ html {
       }
     
       .contact-information__email-icon{
-        background-image: url(/assets/img/form/mail.svg);
+        background-image: url(./assets/img/form/mail.svg);
         height: 8px;
         width: 13px;
         margin-right: 6px;
@@ -1122,22 +1122,22 @@ html {
       }
     
       .social__link:hover .footer__facebook{
-        background-image: url(/assets/img/footer/facebook-hover.png);
+        background-image: url(./assets/img/footer/facebook-hover.png);
         transition: 0.3s;
       }
       
       .social__link:hover .footer__twitter{
-        background-image: url(/assets/img/footer/twitter-hover.png);
+        background-image: url(./assets/img/footer/twitter-hover.png);
         transition: 0.3s;
       }
       
       .social__link:hover .footer__google{
-        background-image: url(/assets/img/footer/google-hover.png);
+        background-image: url(./assets/img/footer/google-hover.png);
         transition: 0.3s;
       }
       
       .social__link:hover .footer__linkendin{
-        background-image: url(/assets/img/footer/linkedin-hover.png);
+        background-image: url(./assets/img/footer/linkedin-hover.png);
         transition: 0.3s;
       }
     
