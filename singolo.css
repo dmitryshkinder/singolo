@@ -1034,7 +1034,7 @@ html {
       }
     
       .contact-information__adress-icon{
-        background-image: url(./assets/singolo3/form-icons/location.svg);
+        background-image: url(/assets/img/form/location.svg);
         height: 11px;
         width: 7px;
         margin-right: 9px;
@@ -1042,7 +1042,7 @@ html {
       }
     
       .contact-information__phone-icon{
-        background-image: url(./assets/singolo3/form-icons/phone.svg);
+        background-image: url(/assets/img/form/phone.svg);
         height: 11px;
         width: 11px;
         margin-right: 8px;
@@ -1054,7 +1054,7 @@ html {
       }
     
       .contact-information__email-icon{
-        background-image: url(./assets/singolo3/form-icons/mail.svg);
+        background-image: url(/assets/img/form/mail.svg);
         height: 8px;
         width: 13px;
         margin-right: 6px;
