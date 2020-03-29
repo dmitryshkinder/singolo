@@ -11,7 +11,15 @@ const SUBMIT_BTN = document.getElementById("submit");
 const CLOSE_MODAL = document.getElementById("modal__close");
 
 const VERTICAL_PHONE = document.querySelector('[class="slider__left-phone"]');
-const HORIZONTAL_PHONE = document.querySelector('[class="slider__right-phone"]');
+const HORIZONTAL_PHONE = document.querySelector(
+  '[class="slider__right-phone"]'
+);
+
+const OPEN_BURGER = document.getElementById("burger");
+const MOBILE_MENU = document.getElementById("mobile-menu");
+const CLOSE_BURGER = document.getElementById("burger-close");
+
+let BlockID;
 
 // Переменные для slider
 let slideIndex = 1;
@@ -21,13 +29,13 @@ for (let anchor of HEADER_ANCHORS) {
   anchor.addEventListener("click", e => {
     e.preventDefault();
 
-    MENU.querySelectorAll("li").forEach(function (el) {
+    MENU.querySelectorAll("li").forEach(function(el) {
       el.querySelector("a").classList.remove("header__link-active");
     });
 
     e.target.classList.add("header__link-active");
 
-    const BlockID = anchor.getAttribute("href").substr(1);
+    BlockID = anchor.getAttribute("href").substr(1);
 
     document.getElementById(BlockID).scrollIntoView({
       behavior: "smooth",
@@ -41,7 +49,7 @@ window.addEventListener("scroll", e => {
     let block_id = block.getAttribute("id").substr(0);
 
     if (block.getBoundingClientRect().top <= 0) {
-      MENU.querySelectorAll("li").forEach(function (el) {
+      MENU.querySelectorAll("li").forEach(function(el) {
         el.querySelector("a").classList.remove("header__link-active");
       });
 
@@ -98,7 +106,7 @@ for (let link of PORTFOLIO_LINKS) {
     let cases_items = document.querySelectorAll('[class="cases-list__item"]');
 
     for (let i = 1; i < cases_items.length; i += 2) {
-      setTimeout(function () {
+      setTimeout(function() {
         cases_items[0].parentNode.insertBefore(
           cases_items[i],
           cases_items[i - 1]
@@ -155,25 +163,60 @@ let flag_left = true; // телефон включен
 VERTICAL_PHONE.addEventListener("click", e => {
   e.preventDefault();
 
-  if(flag_left){
-    VERTICAL_PHONE.classList.add('vertical-phone-active');
+  if (flag_left) {
+    VERTICAL_PHONE.classList.add("vertical-phone-active");
     flag_left = false;
-  }else{
-    VERTICAL_PHONE.classList.remove('vertical-phone-active');
+  } else {
+    VERTICAL_PHONE.classList.remove("vertical-phone-active");
     flag_left = true;
   }
 });
 
-let flag_right = true; 
+let flag_right = true;
 
 HORIZONTAL_PHONE.addEventListener("click", e => {
   e.preventDefault();
 
-  if(flag_right){
-    HORIZONTAL_PHONE.classList.add('horizontal-phone-active');
+  if (flag_right) {
+    HORIZONTAL_PHONE.classList.add("horizontal-phone-active");
     flag_right = false;
-  }else{
-    HORIZONTAL_PHONE.classList.remove('horizontal-phone-active');
+  } else {
+    HORIZONTAL_PHONE.classList.remove("horizontal-phone-active");
     flag_right = true;
   }
+});
+
+// Бургер
+OPEN_BURGER.addEventListener("click", e => {
+  MOBILE_MENU.classList.remove("hidden");
+
+  // Обработка переключения по ссылкам mobile header
+  for (let anchor of HEADER_ANCHORS) {
+    anchor.addEventListener("click", e => {
+      e.preventDefault();
+      document.body.style.overflow = "auto";
+      
+      BlockID = anchor.getAttribute("href").substr(1);
+      document.getElementById(BlockID).scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+
+      MOBILE_MENU.querySelectorAll("li").forEach(function(el) {
+        el.querySelector("a").classList.remove("mobile-menu__link-active");
+      });
+
+      MOBILE_MENU.classList.add("hidden");
+
+      e.target.classList.add("mobile-menu__link-active");
+    });
+  }
+
+  document.body.style.overflow = "hidden";
+});
+
+CLOSE_BURGER.addEventListener("click", e => {
+  MOBILE_MENU.classList.add("hidden");
+
+  document.body.style.overflow = "auto";
 });
