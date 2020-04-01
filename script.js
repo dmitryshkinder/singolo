@@ -190,12 +190,21 @@ HORIZONTAL_PHONE.addEventListener("click", e => {
 OPEN_BURGER.addEventListener("click", e => {
   MOBILE_MENU.classList.remove("hidden");
 
+  let scrollTop = window.pageYOffset
+  ? window.pageYOffset
+  : document.documentElement.scrollTop
+  ? document.documentElement.scrollTop
+  : document.body.scrollTop;
+
+  MOBILE_MENU.style.cssText = `margin-top: ` + scrollTop + `px`;
+  console.log(scrollTop);
+
   // Обработка переключения по ссылкам mobile header
   for (let anchor of HEADER_ANCHORS) {
     anchor.addEventListener("click", e => {
       e.preventDefault();
       document.body.style.overflow = "auto";
-      
+
       BlockID = anchor.getAttribute("href").substr(1);
       document.getElementById(BlockID).scrollIntoView({
         behavior: "smooth",
